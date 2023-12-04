@@ -13,7 +13,7 @@ pip install -r requirements.txt
   - After training the model, you need to annotate the line `model.trainModel()`
 - Try testing with data that is photos from the archive you use `model.testWithImage(path)`
 - Use with your handwriting:
-  - Comment line `model.testWithImage("./data/so_4.png")`
+  - Comment line `model.testWithImage(path)`
   - Open the line comment
     ```sh
       root = tk.Tk()
